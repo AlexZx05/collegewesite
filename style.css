@@ -279,3 +279,45 @@ text-align: center;
     margin-right: 30px;
     border-radius: 50%;
 }
+
+.navgn{
+    background-color: whitesmoke;
+}
+
+.foot{
+    background: linear-gradient(300deg, #020006 , #130138,  #020006);
+    animation: gradient-animation 10s ease infinite;
+    color: white;
+}
+
+.foot li{
+    color: white;
+}
+
+/* Style the dropdown menu container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
